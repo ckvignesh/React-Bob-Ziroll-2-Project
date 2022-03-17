@@ -1,13 +1,10 @@
 * {
-  background: #e5e5e5;
+  background: #1c1c1c;
 }
 
-/* .home-page {
-  position: relative;
-  width: 1296px;
-  height: 1884px;
+.home-page {
   background: #1c1c1c;
-} */
+}
 
 .light-front-layer-one {
   display: inline-flex;
