@@ -1,3 +1,7 @@
+/* ----------------------------------------------------------------------------- */
+/* Background and main section */
+/* ----------------------------------------------------------------------------- */
+
 * {
   background: #1c1c1c;
 }
@@ -5,25 +9,19 @@
 .home-page {
   background: #1c1c1c;
 }
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* CARDS Section */
+/* ----------------------------------------------------------------------------- */
 
-.light-front-layer-one {
-  display: inline-flex;
-  justify-content: center;
-  width: 550px;
-  height: 868px;
-  left: 65px;
-  top: 53px;
-  background: #23252c;
-}
+/* ----------------------------------------------------------------------------- */
+/* DARK CARDS Section */
+/* ----------------------------------------------------------------------------- */
 
-.light-back-layer-one {
-  display: inline-flex;
-  justify-content: center;
-  width: 550px;
-  height: 868px;
-  left: 664px;
-  top: 53px;
-  background: #23252c;
+.dark-card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .dark-front-layer-one {
@@ -46,14 +44,35 @@
   background: #23252c;
 }
 
+/* ----------------------------------------------------------------------------- */
+/* LIGHT CARDS Section */
+/* ----------------------------------------------------------------------------- */
+
+.light-front-layer-one {
+  display: inline-flex;
+  justify-content: center;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+  background: #23252c;
+}
+
+.light-back-layer-one {
+  display: inline-flex;
+  justify-content: center;
+  width: 550px;
+  height: 868px;
+  left: 664px;
+  top: 53px;
+  background: #23252c;
+}
+
 .light-card {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
 }
+/* ----------------------------------------------------------------------------- */
 
-.dark-card {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
+/* ----------------------------------------------------------------------------- */
