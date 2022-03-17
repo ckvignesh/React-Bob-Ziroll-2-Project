@@ -1,0 +1,62 @@
+* {
+  background: #e5e5e5;
+}
+
+/* .home-page {
+  position: relative;
+  width: 1296px;
+  height: 1884px;
+  background: #1c1c1c;
+} */
+
+.light-front-layer-one {
+  display: inline-flex;
+  justify-content: center;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+  background: #23252c;
+}
+
+.light-back-layer-one {
+  display: inline-flex;
+  justify-content: center;
+  width: 550px;
+  height: 868px;
+  left: 664px;
+  top: 53px;
+  background: #23252c;
+}
+
+.dark-front-layer-one {
+  display: inline-flex;
+  justify-content: center;
+  width: 550px;
+  height: 868px;
+  left: 73px;
+  top: 960px;
+  background: #23252c;
+}
+
+.dark-back-layer-one {
+  display: inline-flex;
+  justify-content: center;
+  width: 550px;
+  height: 868px;
+  left: 664px;
+  top: 960px;
+  background: #23252c;
+}
+
+.light-card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.dark-card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}

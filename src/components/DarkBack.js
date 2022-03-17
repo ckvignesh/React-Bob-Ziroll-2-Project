@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function DarkBack() {
-  return <h1>Back Dark</h1>;
+  return (
+    <div>
+      <h1 className="dark-back-layer-one">Back Dark</h1>
+    </div>
+  );
 }

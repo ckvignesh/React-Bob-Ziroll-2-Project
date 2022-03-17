@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function LightBack() {
-  return <h1>Back Light</h1>;
+  return (
+    <div>
+      <h1 className="light-back-layer-one">Light Back</h1>
+    </div>
+  );
 }

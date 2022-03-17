@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function LightFront() {
-  return <h1>Front Light</h1>;
+  return (
+    <div>
+      <h1 className="light-front-layer-one">Light Front</h1>
+    </div>
+  );
 }
