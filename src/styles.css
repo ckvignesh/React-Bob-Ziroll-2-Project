@@ -4,11 +4,12 @@
 
 * {
   background: #1c1c1c;
+  font-family: "Inter";
 }
 
-.home-page {
+/* .home-page {
   background: #1c1c1c;
-}
+} */
 /* ----------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------- */
 /* CARDS Section */
@@ -34,6 +35,28 @@
   left: 73px;
   top: 960px;
   background: #23252c;
+}
+
+.dark-front-middle-box {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  background: #1a1b21;
+}
+
+.dark-front-desc-box {
+  color: #dcdcdc;
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 561px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
 }
 
 /* ----------------------------------------------------------------------------- */
